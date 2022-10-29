@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.card {
+  flex-direction: column;
+}
+
+.card-body {
+  flex-direction: column;
+}
+
+.card-img img {
+  width: 300px;
+}
+
+.prod-review {
+  flex-direction: column;
+  padding: 70px;
+  justify-content: center;
+}
+
+#prod-color {
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
